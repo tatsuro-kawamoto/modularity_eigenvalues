@@ -4,6 +4,7 @@ Estimate the number of communities from the spectrum of the modularity matrix.
 This program computes the leading eigenvalues of the modularity matrix [1]. 
 This program also computes a mean-field estimate [2] of its spectral band edge.
 The number of eigenvalues outside of the spectral band (+1) gives the number of statistically significant communities.
+Please read Ref.[3] for details and performance.
 
 ## Requird python packages
 - numpy
@@ -34,7 +35,9 @@ eigs.py edgelist.txt
 
 The range of z has to be specified in order to find a root in the estimate of the spectral band edge.
 
-## References
+## References & Citations
 [1] M.E.J. Newman, Proc. Natl. Acad. Sci. U.S.A., 103 8577 (2006).
 
 [2] T. Kawamoto and Y. Kabashima, Europhys. Lett., 112 40007 (2015).
+
+[3] T. Kawamoto and Y. Kabashima, arXiv:1606.07668 (2016).

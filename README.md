@@ -1,8 +1,7 @@
 # modularity_eigenvalues
 Estimate the number of communities from the spectrum of the modularity matrix.
 
-This program computes the leading eigenvalues of the modularity matrix [1]. 
-This program also computes a mean-field estimate [2] of its spectral band edge.
+This program computes the leading eigenvalues of the modularity matrix [1] and a mean-field estimate [2] of its spectral band edge.
 The number of eigenvalues outside of the spectral band (+1) gives the number of statistically significant communities.
 Please read Ref.[3] for details and performance.
 

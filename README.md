@@ -26,14 +26,15 @@ eigs.py edgelist.txt
 
 ## OPTIONS
 - Major options:
-  -k: Max. of the number of communities [default: 10]
-  -resolution: Resolution parameter [default: 1]
+  - k: Max. of the number of communities [default: 10]
+  - resolution: Resolution parameter [default: 1]
 - Minor options:
-  -zup: Upper bound of variable z [default: 100]
-  -zlow: Lower bound of variable z [default: 1]
+  - zup: Upper bound of variable z [default: 100]
+  - zlow: Lower bound of variable z [default: 1]
 
 The range of z has to be specified in order to find a root in the estimate of the spectral band edge.
 
 ## References
 [1] M.E.J. Newman, Proc. Natl. Acad. Sci. U.S.A., 103 8577 (2006).
+
 [2] T. Kawamoto and Y. Kabashima, Europhys. Lett., 112 40007 (2015).
